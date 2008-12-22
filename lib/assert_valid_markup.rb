@@ -2,7 +2,7 @@ require 'test/unit'
 require 'net/http'
 require 'digest/md5'
 require 'open-uri'
-require 'FileUtils'
+require 'fileutils'
 
 class Test::Unit::TestCase
   
