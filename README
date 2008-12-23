@@ -11,6 +11,14 @@ network hit on future runs.
 Otherwise, validations will be done using the W3C Validator web service (http://validator.w3.org/).
 Responses from the web service are cached, so your tests aren't slowed down unless something has changed.
 
+== Installation
+
+1.  download the plugin
+
+2.  require the plugin within your test (or within your test_helper)
+
+require 'assert_valid_markup'
+
 == Usage
 
   # Calling the assertion with no parameters validates whatever is in @request.body,
